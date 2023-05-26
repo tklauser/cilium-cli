@@ -76,7 +76,7 @@ const (
 	// renovate: datasource=docker
 	ConnectivityPerformanceImage = "quay.io/cilium/network-perf:bf58fb8bc57c4933dfa6e2a9581d3925c0a0571e@sha256:9bef508b2dcaeb3e288a496b8d3f065e8636a4937ba3aebcb1732afffaccea34"
 	// renovate: datasource=docker
-	ConnectivityCheckJSONMockImage = "quay.io/cilium/json-mock:v1.3.4@sha256:d5fbc5d7762530b53af27b0ba247e61a2fa5da42c8b5a58956933fe6a6ce15b8"
+	ConnectivityCheckJSONMockImage = "quay.io/cilium/json-mock:v1.3.5@sha256:d5dfd0044540cbe01ad6a1932cfb1913587f93cac4f145471ca04777f26342a4"
 	// renovate: datasource=docker
 	ConnectivityDNSTestServerImage = "docker.io/coredns/coredns:1.10.0@sha256:017727efcfeb7d053af68e51436ce8e65edbc6ca573720afb4f79c8594036955"
 
