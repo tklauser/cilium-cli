@@ -87,7 +87,7 @@ const (
 
 	ConfigMapName = "cilium-config"
 	// renovate: datasource=github-releases depName=cilium/cilium
-	Version = "v1.13.3"
+	Version = "v1.13.4"
 
 	StatusWaitDuration = 5 * time.Minute
 
