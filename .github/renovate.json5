@@ -146,7 +146,7 @@
       // similar to the examples shown here:
       //   https://docs.renovatebot.com/modules/manager/regex/#advanced-capture
       "matchStrings": [
-        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s+.+version: (?<currentValue>.*)"
+        "# renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s+.+version: v?(?<currentValue>.*)"
       ]
     },
     {
@@ -168,7 +168,8 @@
       // similar to the examples shown here:
       //   https://docs.renovatebot.com/modules/manager/regex/#advanced-capture
       "matchStrings": [
-        "\/\/ renovate: datasource=(?<datasource>.*?)\\s+.+Image = \"(?<depName>.*):(?<currentValue>.*)@(?<currentDigest>sha256:[a-f0-9]+)\""
+        "\/\/ renovate: datasource=(?<datasource>.*?)\\s+.+Image = \"(?<depName>.*):(?<currentValue>.*)@(?<currentDigest>sha256:[a-f0-9]+)\"",
+        "\/\/ renovate: datasource=(?<datasource>.*?) depName=(?<depName>.*?)\\s+Version = \"(?<currentValue>.*)\""
       ]
     }
   ]
